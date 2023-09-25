@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  #2d2d2d;
+    background-image: url(/img/texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500&display=swap');
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+ul li input {
+    padding: 4px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    padding: 20px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo span {
+    color: rgb(211, 202, 202);
+}
+
+.menu {
+    flex: 4;
+}
+
+.main {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 120px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 10px ;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#e7e2e2,#df5606,#e7e5e5,#0a20eb);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading {
+    margin-top: -155px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about>button {
+    background-color: transparent;
+    padding: 10px 33px;
+    border: 1px solid #fff;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.portfolio>button {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.footer {
+    display: flex;
+}
+
+.s {
+    flex: 5;
+}
+.social_link {
+    flex: 1;
+    padding-left: 150px;
+   
+}
+    
+.social_link i {
+    padding-left: 25px;
+    color: #e7e2e2;
+    font-size: 22px;
+}
+
+
+  
